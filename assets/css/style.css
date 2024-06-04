@@ -734,9 +734,9 @@ main {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
-  gap: 15px;
-  margin: 0 -15px;
-  padding: 25px;
+  /* gap: 5px; */
+  /* margin: 0 -5px; */
+  /* padding: 5px; */
   padding-bottom: 25px;
   overflow-x: auto;
   scroll-behavior: smooth;
@@ -752,8 +752,9 @@ main {
 }
 
 .clients-item img {
-  width: 75px;
-  height: 75px;
+  width: 125px;
+  border-radius: 25px;
+  height: 145px;
   filter: grayscale(0);
   transition: var(--transition-1);
 }
